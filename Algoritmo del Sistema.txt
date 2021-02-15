@@ -1,0 +1,61 @@
+Agregue un archivo README.md en su repositorio, explicando el funcionamiento del
+programa, que partes del problema hay que considerar, y finalmente que considera
+que se podría mejorar sobre el programa 
+
+Sistema de seguros 
+El sistema le solicitara información para iniciar la recopilación de data.
+Solicitará nombre.
+Solicitará apellido.
+Solicitará edad.
+
+Si la edad es menor a 18 el sistema no podrá continuar ejecutándose, E informara que no se puede continuar con la contización.
+
+Si la edad es igual o mayor a 18 el sistema continuará y hará más preguntas para determinar el monto del seguro
+Preguntara si está casado o no.
+	Si la respuesta es *SI* solicitara la edad del cónyuge.
+	En caso contrario no solicitara más información acerca del cónyuge.
+
+Preguntara si tiene hijos.
+	Si la respuesta es *SI* perdiera la cantidad de hijos.
+	En caso contrario no solicitara más información acerca de los hijos.
+
+El sistema calculara el cargo basado en el monto base en este caso es de Q2000.00.
+Este cálculo será dependiente de la edad del asegurado y del conyugue:
+De 18 a 24 años, será multiplicado por el 10% sobre el valor base.
+De 25 a 49 años, será multiplicado por el 20% sobre el valor base.
+De 50 años o más, será multiplicado por el 30% sobre el valor base.
+El recargo será calculado por separado del asegurado y del conyugue.
+En caso de que el asegurado dijo que no esté casado, el cálculo se hará solamente sobre la edad del asegurado.
+
+Si el asegurado tiene hijos se aplicará un recargo del 20% sobre el valor base por cada hijo que se quiera asegurar.
+En caso de que el asegurado no tenga hijos, no se procede ningún calculo
+
+Luego de mostrar los datos:
+Nombre del asegurado
+Apellido del asegurado
+Precio base
+Edad del asegurado y el recargo basado en la edad
+Estado casado o no.
+	Si está casado mostrara la edad del cónyuge y el cargo basado en la edad
+Si el asegurado tiene hijos
+	Si tiene hijos mostrara la cantidad de hijos y el cargo basado en la edad
+Luego Muestra un resumen de los recargos: recargo por edad del asegurado, recargo por edad del cónyuge si este está casado
+recargo por cantidad de hijos si este tiene hijos
+Mostrará por separado los recargos totales y recargo por la edad del asegurado.
+Mostrará la suma de recargos totales y recargo por la edad del asegurado.
+
+
+El sistema preguntara si desea asegurar alguna propiedad
+	Si la respuesta es *SI* preguntara la cantidad de propiedades a asegurar.
+		Preguntara el valor de total de las propiedades
+	El valor total de las propiedades será multiplicado por el 35% para calcular el valor del seguro
+El sistema mostrara el 35% del valor de las propiedades.
+
+El sistema preguntara si desea asegurar el salario
+	Si la respuesta es *SI* preguntara el monto del salario a asegurar.
+	El salario será multiplicado por el 5% para calcular el valor del seguro
+El sistema mostrara el 5% del valor de las propiedades.
+
+Al finalizar el sistema se despedirá y agradecer por haberlo usado
+
+

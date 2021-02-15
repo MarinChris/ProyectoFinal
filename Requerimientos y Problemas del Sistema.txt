@@ -1,0 +1,14 @@
+La empresa aseguradora TK-U necesita implementar un sistema de cotizaciones
+para poder cubrir la cantidad de clientes, ya que ahora se están atendiendo
+50 como máximo, esto da pie a perdida de potenciales clientes.
+La empresa necesita saber la edad del cliente, si este está casado y si tiene hijos.
+
+
+El seguro será calculado en base de la edad del cliente.
+este varía dependiendo la edad.
+
+Casos por considerar para calcular recargos:
+*Estado civil: En este punto se agregarán recargos si el asegurado está casado
+los recargos serán calculados en base de la edad del conyugue.
+*Hijos: Este será otro factor que cambiará el recargo al asegurado
+será basado en la cantidad de hijos, no en la edad de estos.
